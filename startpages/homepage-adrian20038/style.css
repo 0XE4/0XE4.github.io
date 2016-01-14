@@ -1,0 +1,47 @@
+body
+{
+    background: #181818;
+}
+
+h1
+{
+    font-size: 200px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+b
+{
+    font-size: 50px;
+}
+
+center
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.button, .lol {
+    background-color: #181818;
+    text-indent: 0;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 75px;
+    width: 237px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 4px;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+}
+.button:hover, .lol {
+    background-color: #3e3c3a;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
