@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tab Home</title>
+        <meta name="description" content="New tab page">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:200,300,400&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+	
+		<div class="parent">
+			<div class="container child">
+				
+				<div id="searchForm">
+					<form action="" method="post">
+						<input type="text" name="s" value="" placeholder="Search" />
+						<select name="engines">
+							<option value="google">Google</option>
+							<option value="youtube">YouTube</option>
+							<option value="tpb">TPB</option>
+							<option value="kickass">Kickass</option>
+							<option value="duck">Duck Duck Go</option>
+							<option value="wa">Wolfram Alpha</option>
+							<option value="wiki">Wikipedia</option>
+							<option value="imdb">IMDB</option>
+						</select>
+					</form>
+				</div>
+				
+				<section id="linkArea" class="clearfix">
+					<div class="half">
+
+						<h3>Title 1</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<h3 class="alt">Title 2</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+
+						<h3>Title 3</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</div>
+					
+					<div class="half">
+
+						<h3 class="alt">Title 4</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<h3>Title 5</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+
+						<h3 class="alt">Title 6</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<!-- Show or hide by pressing 'h' -->
+						<div class="hideable hide">
+							<h3 class="alt">Hidden Links</h3>
+							<ul class="links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</section>
+				
+			</div>
+		</div>
+		
+		<div id="timeArea">
+			<p class="time"><span class="timeInner"></span> <span class="date"></span></p>
+		</div>
+	
+        
+    </body>
+</html>
