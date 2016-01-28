@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Random Insecam</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		  <style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body,a {
+  margin:0;
+  padding:0;
+  background-image: url(http://0XE4.github.io/images/bg_chck.jpg);
+  background-repeat: repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration:none
+}
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  right: 0;
+  bottom: 5px;
+  left: 0;
+  width: 60%;
+}
+</style>
+
+<script>
+var lower = 160000;
+var upper = 275809;
+var url = "http://www.insecam.org/en/view/"+(Math.floor(Math.random()*(upper-lower))+lower)
+</script>
+  </head>
+  <body>
+  	<div class="center-div">
+    <a href="http://www.insecam.org/en/view/camid" onClick="this.href=this.href.split('camid')[0]+(Math.floor(Math.random()*(upper-lower))+lower)">Random Insecam Viewer</a>
+</div>
+</body>
+</html>
