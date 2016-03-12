@@ -3,7 +3,7 @@
 Welcome to my Github page. I'll one day learn what to write as an introduction.
 <br /><br />
 ##### Projects
-[![alt text](https://raw.githubusercontent.com/0XE4/0XE4.github.io/master/images/EmporiumTitle.png)](http://0xe4.github.io/startpages/ "Startpage Emporium")
+[![alt text](https://raw.githubusercontent.com/0XE4/0XE4.github.io/master/images/EmporiumTitle.png)](http://startpages.github.io/ "Startpage Emporium")
 <br />Startpage Emporium is a collection of Startpages for your browser.
 The vast majority of them are made for desktop screen sizes but some are also built for mobile usage.
 <br /><br />
