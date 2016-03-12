@@ -1,0 +1,45 @@
+.header
+    background-color: $header-bg
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 40
+    height: 50px
+    padding: 0 15px
+
+    .page-content:after
+        content: ""
+        position: absolute
+        z-index: -1
+        left: 0
+        width: 38%
+        height: 0
+
+    h1
+        display: inline
+        font-family: $font-head
+        color: white
+        position: absolute
+        font-weight: 400
+        margin-top: 5px
+
+    .nav
+        list-style: none
+        float: right
+        font-family: $font-main
+        margin-top: 15px
+        font-size: 1em
+
+        li
+            display: inline-block
+
+            &:not(:first-child):before
+                content: " || "
+                color: white
+
+            a
+                text-decoration: none
+                color: white
+
+                &:hover
+                    color: $img-hover

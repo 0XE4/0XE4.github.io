@@ -1,0 +1,90 @@
+---
+---
+
+//Setup
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+.clearfix:after
+    content: ""
+    display: table
+    clear: both
+
+//Setup
+
+//Variables 'Lobster', cursive
+$header-bg: rgba(70,70,70,0.95)
+$img-border: rgba(236,244,244,0.1)
+$img-hover: rgba(162,200,204,0.5)
+$font-main: 'Roboto', sans-serif
+$font-head: 'Raleway', sans-serif
+
+
+body
+    background: url('/media/images/sptile.png')
+    background-attachment: fixed
+    background-color: #383838
+    font-weight: 300
+    color: #ececec
+
+a
+    text-decoration: none
+
+.page-content
+    max-width: 1200px
+
+.img-grid
+    margin-top: 35px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+
+.img-container
+    display: inline-block
+    vertical-align: middle
+    position: relative
+    
+p
+    text-align: center
+    font-size: 16px
+    font-family: 'Roboto', sans-serif
+
+    a
+        color: inherit
+
+.firstline
+    margin: 5px 0 0
+
+.lastline
+    margin: 5px 0 34px
+    font-size: 18px
+    color: rgba(200,200,200,0.4)
+
+.col-1
+    width: 24%
+    padding: 10px 5px 0 0
+
+.col-2
+    width: 49%
+    padding: 10px 10px 0 0
+
+.col-3
+    width: 100%
+    padding: 10px 10px 0 0
+
+img
+    width: 100%
+    position: relative
+    z-index: 1
+    border: 5px solid $img-border
+
+    &:hover
+        border: 5px solid $img-hover
+
+
+@import heading
+@import media-queries

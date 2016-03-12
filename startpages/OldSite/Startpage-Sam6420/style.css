@@ -1,0 +1,38 @@
+body
+	{
+		background-image: url("sam.jpg");
+	}
+.child
+	{
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		display: inline-block;
+		background: #e0e0e0;
+		border: 3px solid #000000;
+		vertical-align: bottom;
+	}	
+#wrap
+	{
+		background: #e0e0e0;	
+		border: 3px solid #000000;
+		width: 750px;
+		margin: 0 auto;
+		padding: 25px;
+	}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}

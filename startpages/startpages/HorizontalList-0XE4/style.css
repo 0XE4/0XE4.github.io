@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body, a{
+	margin:0;
+	padding:0;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+}
+.center-div
+{
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    height: 105px;
+}
+/* MAKE DROPDOWN ITEMS SHOW */
+.dropdown:hover .dropdown-menu {display: block;}
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding-top: 7px;
+    padding-left: 0px;
+    color: #eaeaea;
+}
+/* START BUTTONS */
+.dropdown button1 {
+    background: #6e95a4;
+    border: none;
+    margin: 0;
+    padding: 0.3em 1em;
+}
+.dropdown button2 {
+    background: #8bad9d;
+    border: none;
+    margin: 0;
+    padding: 0.3em 0.8em;
+}
+.dropdown button3 {
+    background: #5e7177;
+    border: none;
+    margin: 0;
+    padding: 0.3em 0.8em;
+}
+.dropdown button4 {
+    background: #333c43;
+    border: none;
+    margin: 0;
+    padding: 0.3em 0.8em;
+}
+.dropdown button5 {
+    background: #44637f;
+    border: none;
+    margin: 0;
+    padding: 0.3em 1.1em;
+}
+.dropdown button6 {
+    background: #214d58;
+    border: none;
+    margin: 0;
+    padding: 0.3em 0.8em;
+}
+/* SINGLE LINK BUTTON*/
+.dropdown a {display: block;}
+/* HOVER BAR ON DROPDOWN LINKS */
+.dropdown a:hover {background: rgba(110,149,164,0.3);}
+/* DROPDOWN LINK TEXT */
+#li, a.drop {font-weight: 300;color: #fff;}
+.dropdown {position: relative;display: inline-block;}

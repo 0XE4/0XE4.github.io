@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+#top{
+  width: 100%;
+  height: 380px;
+  margin: 0 auto;
+  border-bottom: 1px solid #b8b8b8; /* Great b8 m8 */
+  text-align: center;
+}
+
+#homeSearch{
+  width: 35%;
+  height: 40px;
+  margin: 170px auto 0 auto;
+  border: 1px solid #b8b8b8; /* Great b8 m8 r8*/
+  padding: 3px;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  opacity: 0.3;
+  transition: all 0.5s ease 0s;
+}
+
+#homeSearch:hover,
+#homeSearch:focus{
+  opacity: 1;
+}
+
+#cont{
+  width: 100%;
+  max-width: 960px;
+  margin: 40px auto 40px auto;
+}
+
+.linkBox{
+  width: 182px;
+  height: 170px;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+
+  background: #dedada;
+  line-height: 170px;
+}
+
+.linkBox.red{
+  border-bottom: 4px solid #9a303f;
+}
+
+.linkBox.light{
+  border-bottom: 4px solid #629770;
+}
+
+.linkBox a{
+  font-family: 'Ubuntu';
+  font-size: 30px;
+  text-decoration: none;
+  color: #b8b8b8; /* Great b8 m8 */
+}
+
+.linkBox.red a:hover{
+  color: #9a303f;
+}
+
+.linkBox.light a:hover{
+  color: #629770;
+}

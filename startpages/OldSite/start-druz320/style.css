@@ -1,0 +1,55 @@
+#bg {
+	position: fixed;
+	top: -100px;
+	left: 0;
+
+	width: 100%;
+}
+
+body {
+	background-size: cover;
+	font-size: 24px;
+}
+
+
+div.books {
+	margin-left: 50%;
+	text-align: left;
+	padding-left: 60px;
+
+	font-family: Tamsyn, Monospace, Helvetica Neue;
+	font-weight: 300;
+	font-size: 0.75em;
+
+	position: fixed;
+	left: 0px;
+	top: 150px;
+}
+
+div.books2 {
+	margin-right: 50%;
+	text-align: right;
+	padding-right: 60px;
+
+	font-family: Tamsyn, Monospace, Helvetica Neue;
+	font-weight: 300;
+	font-size: 0.75em;
+
+	position: fixed;
+	right: 0px;
+	top: 150px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #dedede;
+}
+
+a:visited {
+	color: #dedede;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3c6eb4;
+}

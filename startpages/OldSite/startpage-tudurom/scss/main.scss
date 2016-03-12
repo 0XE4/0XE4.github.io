@@ -1,0 +1,102 @@
+@import 'colors';
+
+html, body, h1, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $color0;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-height: 600px) {
+  main {
+    left: 40%;
+    transform: translate(-40%, -60%);
+  }
+}
+
+h1 {
+  color: $color10;
+  font-family: "Roboto Slab";
+  font-size: 3em;
+}
+
+p {
+  color: $color7;
+  font-family: "Clear Sans";
+  font-size: 1em;
+}
+
+code {
+  font-family: "Inconsolata";
+  font-size: 1em;
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  font-family: "Clear Sans";
+  font-size: 1em;
+  line-height: 1.5;
+  list-style: none;
+  margin: 0 5px;
+}
+
+.subh {
+  color: $color1;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.subh:hover {
+  color: $color9;
+}
+
+a {
+  color: $color6;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  color: $color14;
+}
+
+.subh a {
+  color: $color1;
+}
+
+.subh a:hover {
+  color:$color9;
+}
+
+.searchfield {
+  background: $color8;
+  color: $color15;
+  border: none;
+  display: block;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: .9em;
+  height: 25px;
+  margin: 10px auto;
+  padding: 5px 0 5px 10px;
+  transition: .2s;
+  width: 300px;
+}

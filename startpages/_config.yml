@@ -1,0 +1,10 @@
+title: Startpage Emporium
+description: >
+    A curated, showcase of startpages. Currently listing over 25 beautiful startpages, with more to come.
+baseurl: ""
+
+# Build settings
+exclude: ["README.md", "portfolio.sublime-project", "portfolio.sublime-workspace"]
+permalink: pretty
+gems:
+  - jekyll-sitemap

@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style/style.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+<!-- Page Title -->
+	<title>Start Page</title>
+
+<style type="text/css">
+body {
+    background: url(images/bg-noise.png) repeat;
+}
+</style>
+</head>
+<body>
+<abruzzi>
+
+
+iSites
+http://zivallh.deviantart.com || deviantART 
+http://weheartit.com/zivallh || weheartit
+http://zivallhblog.tumblr.com || blog
+http://www.youtube.com/zivallh || youtube
+http://twitter.com/Zivallh || twitter
+http://zivallh.tumblr.com || tumblr
+http://www.vimeo.com/zivallh || vimeo
+
+Social
+http://www.facebook.com || Facebook
+http://www.twitter.com || Twitter
+http://www.myspace.com || myspace
+http://www.youtube.com || Youtube
+http://www.google.com/ncr || Google.com
+https://login.yahoo.com/config/login || Yahoo
+https://mail.google.com/mail/#inbox || Gmail
+https://login.live.com || Hotmail
+
+Design
+http://www.flickr.com/ || Fliker
+http://365psd.com/ || 365PSD
+http://envato.com/ || Envato
+http://wallbase.cc/start/ || wallbase
+http://dribbble.com/ || dribbble
+http://www.premiumpixels.com/ || PremiumPixels
+http://pixelfuckers.org/ || PixelFuckers
+http://fiftyfootshadows.net/ || FiftyFootShadows
+http://www.customize.org/ || Customize
+
+Misc
+http://www.apple.com || Apple
+http://apptrackr.org/ || AppTrackr
+http://www.askvg.com || askVG
+http://shoutcast.flashradio.info || eRadio
+http://www.filehippo.com || FileHippo
+http://trailers.apple.com/ || Movie Trailers
+https://www.dropbox.com/home# || dropbox
+http://my.cl.ly/ || my CloudApp
+http://subscene.com || subscene
+https://translate.google.jo/?hl=ar&tab=wT# || Translator
+
+Example
+http://www.example.com || Example
+
+
+</abruzzi>
+
+
+
+
+
+<div id="date">
+<script type="text/javascript">
+
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];
+}
+
+var months = new makeArray('January','February','March','April','May',
+'June','July','August','September','October','November','December');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+
+document.write(day + " " + months[month] + " " + year);
+
+</script>
+</div>
+
+<script type="text/javascript">
+    
+    $(window).load(function() {
+        $('#slider').nivoSlider({ borderRadius: 5 });
+    });   
+</script>
+<script type="text/javascript">
+$('body').hide();
+$('body').fadeIn(2000);
+</script>
+
+
+<script type="text/javascript">
+	if(showDate) {
+		// Add empty '#clock' div
+		$('body').append('<div id="date"></div>');
+
+	  // Update clock
+   	setInterval('makeArray()',);
+	}
+</script>
+
+</body>
+</html>

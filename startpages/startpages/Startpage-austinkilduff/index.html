@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Startpage</title>
+
+		<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="site.css">
+
+		<script src="weather.js"></script>
+		<script src="clock.js"></script>
+	</head>
+	<body onload="startTime()">
+		<div class="container">
+			<div id="content" class="vcenter">
+				<h1 id="clock"></h1>
+
+				<div id="weather">
+					<h2 id="description"></h2>
+					<h3 id="temp_curr">
+						<small id="temp_low"></small>
+						<small id="temp_high"></small>
+					</h3>
+				</div>
+
+				<div id="inputs">
+					<form method="get" action="http://www.google.com/search">
+						<div class="input-group">
+							<input name="q" type="text" class="form-control" placeholder="Google" autofocus>
+							<span class="input-group-btn">
+								<button type="submit" class="btn btn-default">Search</button>
+							</span>
+						</div>
+					</form>
+
+					<div class="btn-group">
+						<a class="btn btn-default" href="http://reddit.com">reddit</a>
+						<a class="btn btn-default" href="http://amazon.com">amazon</a>
+						<a class="btn btn-default" href="http://netflix.com">netflix</a>
+						<a class="btn btn-default" href="http://hulu.com">hulu</a>
+						<a class="btn btn-default" href="http://youtube.com">youtube</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

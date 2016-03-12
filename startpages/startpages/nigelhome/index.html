@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Tab</title>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'> <!-- Downloads the desired font -->
+</head>
+<body>
+<ul class="container">
+        <li class="search"><form method="get" action="http://www.google.com/search" target="_blank">
+      <input maxlength="250" name="lmao" size="40" type="text" placeholder="Search Google"/></li>
+        <!-- Start Dropdown -->
+        <li><a class="parent" href="#">Entertainment</a> <!-- Section title -->
+                <ul class="submenu"> <!-- Links Start -->
+                        <li><a class="tab" href="https://boards.4chan.org/g/catalog">/g/ - Technology</a></li>
+                        <li><a class="tab" href="https://boards.4chan.org/gd/catalog">/gd/ - Graphic Design</a></li>
+                        <li><a class="tab" href="https://play.google.com/music">Google Play Music</a></li>
+                        <li><a class="tab" href="https://netflix.com">Netflix</a></li>
+                        <li><a class="tab" href="https://soundcloud.com/stream">SoundCloud</a></li>
+                        <li><a class="tab" href="https://www.flickr.com">Flickr</a></li>
+                        <li><a class="tab" href="https://youtube.com">Youtube</a></li>
+                        <li><a class="tab" href="https://web.whatsapp.com">WhatsApp Web</a></li>        
+                </ul> <!-- Links End -->
+        </li>
+        <!-- End Dropdown Section -->
+        <li><a class="parent" href="#">Technology & Science</a>
+                <ul class="submenu">
+                        <li><a class="tab" href="http://www.codepen.io">CodePen</a></li>
+                        <li><a class="tab" href="http://www.codeacademy.com">Codeacademy</a></li>
+                        <li><a class="tab" href="http://www.github.com">Github</a></li>
+                        <li><a class="tab" href="http://www.lifehacker.co.uk">Lifehacker UK</a></li>
+                        <li><a class="tab" href="http://www.livescience.com">Live Science</a></li>
+                        <li><a class="tab" href="https://www.newscientist.com">New Scientist</a></li>
+                        <li><a class="tab" href="http://www.stackoverflow.com">Stack Overflow</a></li>
+                        <li><a class="tab" href="http://www.stuff.tv">Stuff</a></li>
+                        <li><a class="tab" href="http://www.wired.co.uk">Wired UK</a></li>
+                        <li><a class="tab" href="http://www.wired.com">Wired US</a></li>
+                </ul>
+        </li>
+        <li><a class="parent" href="#">Reddit</a>
+                <ul class="submenu">
+                        <li><a class="tab" href="https://www.reddit.com/r/analog">Analog</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/android">Android</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/citiesskylines">Cities: Skylines</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/space">Space</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/startpages">Startpages</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/techsupportgore">Techsupportgore</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/whatcouldgowrong">Whatcouldgowrong</a></li>
+                        <li><a class="tab" href="https://www.reddit.com/r/4chan">4chan</a></li>
+                </ul>
+        </li>
+        <li><a class="parent" href="#">Style & Fashion</a>
+                <ul class="submenu">
+                        <li><a class="tab" href="http://4chan.org/fa/catalog">/fa/ - Fashion</a></li>
+                        <li><a class="tab" href="http://www.primermagazine.com">Primer Magazine</a></li>
+                        <li><a class="tab" href="https://www.thread.com/v2/home">Thread</a></li>
+                </ul>
+        </li>
+        <li><a class="parent" href="#">Misc</a>
+                <ul class="submenu">
+                        <li><a class="tab" href="https://www.dropbox.com">Dropbox</a></li>
+                        <li><a class="tab" href="https://drive.google.com/drive">Google Drive</a></li>
+                        <li><a class="tab" href="https://interfacelift.com/wallpaper/downloads/date/any/">InterfaceLIFT</a></li>
+                        <li><a class="tab" href="https://mega.co.nz">MEGA</a></li>
+                        <li><a class="tab" href="http://cupcake.nilssonlee.se">Nilsson Lee Cupcake</a></li>
+                        <li><a class="tab" href="http://pastebin.com">Pastebin</a></li>
+                        <li><a class="tab" href="https://www.rarbg.com/">RARBG</a></li>
+                </ul>
+        </li>
+</ul>
+
+<script>
+$('.submenu').hide();
+$("li:has(ul)").click(function(){
+$("ul",this).slideToggle('200');
+});
+</script>
+</body>
+</html>

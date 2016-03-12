@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <title>~</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <main>
+      <h1>Home</h1>
+      <p>
+        <li class="subh">fun</li>
+        <li><a href="https://reddit.com/">reddit</a></li>
+        <li><a href="https://nixers.net">nixers</a></li>
+      </p>
+      <p>
+        <li class="subh">stuff</li>
+        <li><a href="http://github.com/">github</a></li>
+        <li><a href="https://wiki.installgentoo.com/index.php/Main_Page">install gentoo</a></li>
+        <li><a href="https://gmail.com">mail</a></li>
+      </p>
+      <p>
+        <li class="subh">media</li>
+        <li><a href="https://soundcloud.com">soundcloud</a></li>
+        <li><a href="https://youtube.com">youtube</a></li>
+      </p>
+      <p>
+        <li class="subh">problems</li>
+        <li><a href="http://varena.ro">varena</a></li>
+      </p>
+      <p>
+        <input type="text" class="searchfield" autofocus placeholder="lurk..." />
+      </p>
+    </main>
+    <script>
+      document.getElementsByClassName('searchfield')[0].onkeypress = function (e) {
+        if (!e) e = window.event;
+        var keyCode = e.keyCode || e.which;
+        if (keyCode == '13') {
+          window.location.href = "https://duckduckgo.com/?q=" + document.getElementsByClassName('searchfield')[0].value;
+        }
+      };
+    </script>
+  </body>
+</html>

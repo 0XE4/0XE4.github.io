@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* Basic */
+body,a{margin:0;padding:0;color:#f2f2f2;font-size:16px;text-align:center;text-decoration:none}
+body,input,select,textarea{background-image:url(http://0XE4.github.io/images/sptile.png);background-repeat:repeat;background-attachment:fixed;background-position:center;font-family:'Roboto',sans-serif;font-size:14pt;font-weight:300;line-height:1.75em}
+a:hover{text-decoration:none}
+strong,b{font-weight:500}
+em,i{font-style:italic}
+p,ul,ol,dl,table,blockquote{margin:0 0 5px}
+sub{font-size:8px;position:relative;top:.5em}
+sup{font-size:8px;position:relative;top:-.5em}
+hr{display:block;border-style:inset;border-width:1px;width:65%;margin:1.6em auto}
+header.major{padding-bottom:25px}
+header h2{margin:12px;margin-bottom:0px;line-height:1.75em;font-family: 'Lobster', cursive;color:inherit;padding:0;font-size:36px;font-weight:500}
+
+/* Image */
+.image{border:0;position:relative}
+.image.fit{display:block}
+.image.fit img{display:block;width:100%}
+.image.feature{display:block;margin:0 0 6px}
+.image.feature img{display:block;width:100%;box-shadow: 0px 0px 15px #191919}
+
+/* Startpages */
+a.auth{}
+.title1{color:#96ceb4}
+.title2{color:#eb6841}
+.title3{color:#5F9EA0}
+.title4{color:#edc951}
+
+/* Footer */
+.footer{font-size:14px;padding-top: 30px}
+a.issue{color:#edc951;font-size:14px}
+a.footname{color:#5F9EA0;font-size:14px}

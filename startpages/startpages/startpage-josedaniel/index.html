@@ -1,0 +1,53 @@
+<!doctype html>
+<charset=utf-8>
+<title>@josedaniel startpage</title>
+		<link rel="icon" type="image/ico" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+<body>
+	<div class="gravatar">
+		<a href="http://github.com/josedaniel">
+			<img src="https://es.gravatar.com/userimage/620180/5e0d8f961f56d4c26f527195e4d2bdcc.png" />
+		</a>
+	</div>
+	<div class="filter_box">
+		<form>
+			Filter: <input type="text" class="filter" />
+		</form>
+	</div>
+	<ul class="level_0">
+		<li>
+			<h2 style="border-bottom-color:#B65051">Development</h2>
+			<ul class="level_1">
+				<li><a href="http://zambo.josepaternina.dev">Zambo [local]</a></li>
+					<li><a href="http://carlosprieto.net">Blog de Carlos Prieto</a></li>
+				<li><a href="http://zambodev.8manos.in">Zambo [dev]</a></li>
+					<li><a href="http://plazaencasa.com">Plaza en Casa [produccion]</a></li>
+				<li><a href="http://zambodev.8manos.in">Zambo [production]</a></li>
+					<li><a href="http://plazaencasa.josepaternina.dev">Plaza en Casa [local]</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<h2 style="border-bottom-color:#00AEFF">Google Chrome Apps</h2>
+			<ul class="level_1">
+				<li><a href="https://chrome.google.com/webstore?utm_source=chrome-ntp-icon">Chrome Web Store</a></li>
+					<li><a href="http://gmail.com">Gmail</a></li>
+				<li><a href="http://do.com">Do.com</a></li>
+					<li><a href="https://www.thoughtbox.es">Thougthboxes</a></li>
+				<li><a href="http://chrome.angrybirds.com/">Angry Birds</a></li>
+			</ul>
+		</li>
+	</ul>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="quicksearch.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('a').each(function(){
+				$(this).attr('target','_blank');
+			});
+			$('input.filter').quicksearch('.level_1 li');
+			$('input.filter').focus();
+		});
+	</script>
+</body>

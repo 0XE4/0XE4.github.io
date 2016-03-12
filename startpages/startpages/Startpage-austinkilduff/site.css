@@ -1,0 +1,44 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #2753A4;
+}
+.container {
+	padding: 0;
+	width: fit-content;
+}
+#content {
+	background-color: #fff;
+  	text-align: center;
+  	padding: 15px 30px 15px 30px;
+  	box-shadow: 0px 1px 2px #333;
+  	border-radius: 4px;
+}
+.vcenter {
+	position: relative;
+	top: 50vh;
+	transform: translateY(-50%);
+}
+#inputs {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+form {
+	display: table-caption;
+}
+.btn-group {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 5em;
+	margin-bottom: 0;
+}
+h2 {
+	font-size: 3em;
+	margin-top: 5px;
+}
+h3 {
+	font-size: 2em;
+	margin-top: 10px;
+}

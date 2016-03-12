@@ -1,0 +1,61 @@
+html
+{
+        margin: -1px;
+        border: -1px;
+        padding: -1px;
+}
+body
+{
+        background: url('bg2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Questrial', sans-serif; /* Applies the font you reference in the HTML */
+        font-size: 16px;
+        
+}
+::-webkit-scrollbar /* Gets rid of any scrollbars on the browser */
+{
+        display: none;
+}
+ul
+{
+        display: block;
+        width: 35%;
+        margin: 15% auto;
+        padding: 0;
+        list-style: none;
+}
+ul.container
+{
+        box-shadow: 0px 0px 0px #000;
+}
+ul.submenu
+{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background:rgba(220,219,219,.07);
+}
+a /* Link Style */
+{
+        display: block;
+        padding: 10px;
+        color: #EEE;
+        transition: all .3s ease;
+        text-decoration: none;
+        opacity: .5;
+}
+a:hover
+{
+        color: #fff;
+        transition: all .3s ease;
+}
+
+textarea:focus, input:focus {outline: none;}
+input {text-align: center;font-size: 16px;background: #EEE;border: none;}
+li.search {color: #555;background: #EEE;text-align: center;display: block;padding: 10px;opacity: .5;}
+a.parent {transition: all .3s ease;color: #555;background: #EEE;text-align: center;}
+a.tab {transition: all .3s ease;opacity: 0.5;}
+a.tab:hover {transition: all .3s ease;text-indent: 5px;opacity: 1; }
+ul > li:hover > a.parent {transition: all .3s ease;opacity: .8;}
